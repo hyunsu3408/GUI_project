@@ -11,9 +11,8 @@ combobox.pack()
 combobox.set("카드 결제일") #최초 목록 설정
 
 readonly_combobox= ttk.Combobox(root, height=10, values=values, state="readonly")
-readonly_combobox.current(0)
+readonly_combobox.current(0) # 0번째 인덱스 값 선택
 readonly_combobox.pack()
-
 
 
 def btncmd():
