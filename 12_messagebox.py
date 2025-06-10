@@ -52,7 +52,6 @@ Button(root,command=yesno,text="예 아니오").pack()
 Button(root,command=yesnocancel,text="예 아니오 취소").pack()
 
 
-
 root.mainloop()
 
 
