@@ -27,7 +27,6 @@ def retrycancel():
 
 def yesno():
     msgbox.askyesno("예/아니오","해당 좌석은 역방향입니다. 예매 하시겠습니까?")
-    response = msgbox.askyesnocancel(title=None,message="예매 내역이 저장되지 않았습니다.\n 예매 내역을 저장하시겠습니까?")
     
 def yesnocancel():
     response = msgbox.askyesnocancel(title=None,message="예매 내역이 저장되지 않았습니다.\n 예매 내역을 저장하시겠습니까?")
